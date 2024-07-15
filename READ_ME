@@ -1,0 +1,19 @@
+Predicting Salary from Years of Experience using Linear Regression
+Project Overview:
+This project aims to predict salaries based on years of experience using linear regression. It demonstrates how to:
+
+Import Libraries: Utilize essential libraries such as pandas, numpy, matplotlib and sklearn for data manipulation, visualization, and model building.
+
+Data Reading and Exploration: Load a dataset (Salary_Data.csv) containing years of experience and corresponding salaries. Explore the dataset to understand its structure and characteristics (data.info()).
+
+Data Visualization: Visualize the dataset to gain insights into the relationship between years of experience and salary through line plots (plt.plot()) and scatter plots (plt.scatter()).
+
+Data Preprocessing: Prepare the data by splitting it into features (YearsExperience) and labels (Salary). Use train_test_split from sklearn to split the dataset into training and testing sets.
+
+Model Building: Implement a linear regression model (LinearRegression from sklearn) to train on the training set (features_train, label_train).
+
+Model Evaluation: Test the trained model on the testing set (features_test). Calculate predictions (model.predict(features_test)) and evaluate its performance by comparing predicted salaries with actual salaries (label_test).
+
+Results: Display the results of the model evaluation (new_data), showing predicted salaries alongside actual salaries for comparison.
+
+
